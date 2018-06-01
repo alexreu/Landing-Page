@@ -1,0 +1,25 @@
+header {
+    background: url(../img/bg-header.jpg) no-repeat center fixed;
+    background-position-y: 50%; 
+    height: 500px;
+    width: 100%
+}
+.overlay {
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+/* header */
+
+/* presentation */
+.mypadding-t {
+    padding-top: 100px;
+}
+.mypadding-b {
+    padding-bottom: 100px;
+}
+#presentation {
+    background-color: #f8f9fa;
+}
