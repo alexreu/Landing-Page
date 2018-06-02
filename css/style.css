@@ -1,6 +1,17 @@
+.myHeight {
+    height: 40vh;
+}
+.mypadding-t {
+    padding-top: 100px;
+}
+.mypadding-b {
+    padding-bottom: 100px;
+}
+
 header {
     background: url(../img/bg-header.jpg) no-repeat center fixed;
     background-position-y: 50%; 
+    background-size: cover;
     height: 500px;
     width: 100%
 }
@@ -14,12 +25,28 @@ header {
 /* header */
 
 /* presentation */
-.mypadding-t {
-    padding-top: 100px;
-}
-.mypadding-b {
-    padding-bottom: 100px;
-}
-#presentation {
+#presentation, #view {
     background-color: #f8f9fa;
+}
+
+
+
+/* showcase */
+.showcase-1 {
+    background: url(../img/bg-showcase-1.jpg) no-repeat;
+    min-height: 30rem;
+    background-size: cover;
+}
+.showcase-2 {
+    background: url(../img/bg-showcase-2.jpg) no-repeat;
+    min-height: 30rem;
+    background-size: cover
+}
+.showcase-3 {
+    background: url(../img/bg-showcase-3.jpg) no-repeat;
+    min-height: 30rem;
+    background-size: cover
+}
+.showcase-text {
+    padding: 7rem !important;
 }
