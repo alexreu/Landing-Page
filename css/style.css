@@ -29,8 +29,6 @@ header {
     background-color: #f8f9fa;
 }
 
-
-
 /* showcase */
 .showcase-1 {
     background: url(../img/bg-showcase-1.jpg) no-repeat;
@@ -49,4 +47,20 @@ header {
 }
 .showcase-text {
     padding: 7rem !important;
+}
+
+/* sign up */
+#snign-up {
+    background: url(../img/bg-header.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+.overlay-signUp {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.signup-title {
+    font-size: 30px;
 }
